@@ -1,7 +1,10 @@
 body {
+  display: flex;
   margin: 0;
-  padding-top: 10%;
-  padding-left: 20%;
+  min-width: 320px;
+  min-height: 100vh;
+  place-items: center;
+  justify-content: center;
 }
 
 * {
