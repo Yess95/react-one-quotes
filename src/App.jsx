@@ -20,7 +20,7 @@ function App() {
 
   //--------------------------------------------------------------------------------//
   // CREANDO ARREGLO COLORES RANDOM
-  const colors = ["#845EC2", "#D65DB1", "#FF6F91", "#FF9671", "#FFC75F", "#F9F871"]
+  const colors = ["#FF8787", "#B1AFFF", "#594545", "#98A8F8", "#87AC62", "#BCE29E", "#F2D388", "#554994", "#80558C", "#354259"]
 
   //CREANDO VARABLE PARA ARREGLO RANDOM
   const colorRandom = Math.floor(Math.random() * colors.length);
