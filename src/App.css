@@ -11,6 +11,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
   margin: 1%;
+  box-sizing: border-box;
 }
 
 .App{
@@ -55,3 +56,47 @@ h2{
   text-align: end;
   padding-left: 40px;
 }
+
+@media screen and (max-width:680px) {
+  .card{
+    /* width: 800px; */
+    box-shadow: #0e1e251f 0 2px 4px, #0e1e2552 0 2px 16px;
+    background: #fff;
+    width: 200px;
+    padding: 1rem;
+}
+.card h1{
+  font-size: 60px;
+  text-align: left;
+  margin-top: 1px;
+}
+h2{
+  text-align: start;
+  padding-left: 30px;
+  font-size: 20px;
+  margin-top: -8px;
+}
+p{
+  margin-top: 12px;
+  text-align: end;
+}
+.card button{
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #fff;
+  margin-bottom: 1rem;
+  margin-left: 8rem;
+  text-align: center;
+}
+
+.card button i{
+  font-size: 25px;
+  color:#fff;
+  width: -1rem;
+  margin-top: -0.1rem;
+}
+  }
